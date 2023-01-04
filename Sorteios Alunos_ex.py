@@ -1,4 +1,3 @@
-
 import random
 print(' Sorteio de alunos ')
 n1 = input('Digite nome do primeiro aluno: ')
