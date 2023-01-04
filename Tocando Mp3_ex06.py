@@ -1,0 +1,3 @@
+import playsound
+playsound.init()
+
