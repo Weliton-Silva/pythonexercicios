@@ -1,3 +1,9 @@
 import playsound
-playsound.init()
+
+
+class Audio:
+    pass
+
+
+playsound(Audio)
 
