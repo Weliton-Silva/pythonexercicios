@@ -1,9 +1,17 @@
-total = (input('Digite um Valor de 0 a 9999: '))
-n1 = (total[0])
-n2 = (total[1])
-n3 = (total[2])
-n4 = (total[3])
-print('Milhar: {}\nCentena: {}\nDezena: {}\nUnidade: {}'.format(n1, n2, n3, n4))
+num = int(input('Digite um Valor de 0 a 9999: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+print('Analisando o Numero {}.'.format(num))
+print('Unidade: {}'.format(u))
+print('Dezena: {}'.format(d))
+print('Centena: {}'.format(c))
+print('Milhar: {}'.format(m))
+
+
+
+
 
 
 
