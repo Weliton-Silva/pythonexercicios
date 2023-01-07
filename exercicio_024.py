@@ -1,4 +1,6 @@
 nome = input('Digite o nome da sua cidade: ')
-print('{} para Santos no nome da sua cidade.'.format('Santos' in nome))
+nome1 = nome.upper()
+print('{} para Santo no nome da sua cidade.'.format('SANTO' in nome1))
+
 
 
